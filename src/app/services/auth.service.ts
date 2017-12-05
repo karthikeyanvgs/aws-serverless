@@ -1,10 +1,10 @@
 import { Injectable } from "@angular/core";
 import { environment } from '../../environments/environment';
-
+import { SecurityService } from './security.service';
 @Injectable()
 
 export class AuthService {
-    constructor() { }
+    constructor(private securityService: SecurityService) { }
 
     isLoggedIn(): boolean {
         let access_token = localStorage.getItem('access_token');
@@ -24,6 +24,6 @@ export class AuthService {
         if (token !== null) {
             redirectUrl = redirectUrl + '&prompt=none';
         }
-        window.location.href = redirectUrl;
+        window.location.href = this.securityService.getLogoutUrl();
     }
 }

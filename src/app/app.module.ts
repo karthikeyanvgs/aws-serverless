@@ -11,6 +11,7 @@ import { MoniterService } from './services/moniter.service';
 import { DashoardService } from './services/dashboard.service';
 import { AuthGuard } from './services/auth.guard';
 import { AuthService } from './services/auth.service';
+import { SecurityService } from './services/security.service';
 
 import {SharedModule, MultiSelectModule} from 'primeng/primeng';
 
@@ -58,6 +59,7 @@ export function createHttpInterceptor (xhrBackend: XHRBackend,
     AuthGuard,
     AuthService,
     MoniterService,
+    SecurityService,
     DashoardService,
     {
           provide: Http,

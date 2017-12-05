@@ -29,7 +29,6 @@ export class DashboardComponent implements OnInit {
       { field: 'flow_status', header: 'FLOW_STATUS' },
       { field: 'flow_type', header: 'FLOW_TYPE' },
       { field: 's3_bucket', header: 'S3_BUKET' },
-      { field: 's3_key', header: 'S3_KEY' },
       { field: 'start_time', header: 'START_TIME' },
       { field: 'end_time', header: 'END_TIME' }
     ];

@@ -5,11 +5,11 @@ const path = require('path');
 const https = require('https');
 
 const PORT = process.env.PORT || 4200;
-const configurationUrl = process.env.configurationUrl || 'https://j6f6mqtypk.execute-api.us-west-2.amazonaws.com/local/clincx/v1/admin/config';
+const configurationUrl = process.env.configUrl || 'https://j6f6mqtypk.execute-api.us-west-2.amazonaws.com/local/clincx/v1/admin/config';
 const context = process.env.context || '';
 
 app.use(express.static('ghxmoniter'));
-
+console.log("configurationUrl", configurationUrl);
 app.get('/configuration', function (req, res) {
     https.get(configurationUrl, (resp) => {
         resp.setEncoding('utf8');
