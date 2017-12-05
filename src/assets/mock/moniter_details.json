@@ -1,0 +1,47 @@
+[{
+	"url": "http://192.168.3.52:9090/user/details",
+	"request": "",
+	"response": {
+		"username": "Manikandan Pounraj",
+		"organizationId": "92",
+		"roleId": "2",
+		"organizationName": "GHX",
+		"agentId": 576460,
+		"productRoles": {
+			"id": 68,
+			"roleName": "Full Access",
+			"roleHandle": "FULL_ACCESS"
+		},
+		"egxadmin": true,
+		"impersonate": false
+	},
+	"last_run_time": "23-06-2017 04:20 PM"
+}, {
+	"url": "http://192.168.3.52:9090/user/getRootOrgEId",
+	"request": "",
+	"response": {
+		"timestamp": 1498214428774,
+		"status": 500,
+		"error": "Internal Server Error",
+		"exception": "org.springframework.web.client.HttpClientErrorException",
+		"message": "401 User authenticate failed.",
+		"path": "/user/getRootOrgEId"
+	},
+	"last_run_time": "23-06-2017 04:20 PM"
+}, {
+	"url": "http://192.168.3.52:9090/api/clincx/v1/nouns",
+	"request": {
+		"searchFilter": []
+	},
+	"response": [{
+		"key": "SCREW",
+		"doc_count": 35637
+	}, {
+		"key": "OSTEOTOME",
+		"doc_count": 767
+	}, {
+		"key": "YOKE",
+		"doc_count": 1
+	}],
+	"last_run_time": "23-06-2017 04:20 PM"
+}]

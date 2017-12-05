@@ -1,0 +1,13 @@
+[{
+	"environment": "UI",
+	"status": "green",
+	"last_run_time": "23-06-2017 04:20 PM"
+}, {
+	"environment": "Global Content API",
+	"status": "green",
+	"last_run_time": "23-06-2017 04:20 PM"
+}, {
+	"environment": "COREX API",
+	"status": "red",
+	"last_run_time": "23-06-2017 04:20 PM"
+}]

@@ -1,0 +1,205 @@
+{
+    "totalRecords": 22,
+    "items": [
+        {
+            "org_eid": "104000660",
+            "s3_key": "poh/inbound/104000660.1496029798563.POHX.txt",
+            "s3_bucket": "ghx-global-content-encrypted-dev",
+            "flow_status": "COMPLETE",
+            "flow_type": "POH",
+            "flow_id": "1496029798563",
+            "start_time": "2017-07-07 14:48:33.327",
+            "end_time": "2017-07-07 14:50:42.500"
+        },
+        {
+            "org_eid": "104000660",
+            "s3_key": "poh/inbound/104000660.1496551831025.POHX.txt",
+            "s3_bucket": "ghx-global-content-encrypted-dev",
+            "flow_status": "COMPLETE",
+            "flow_type": "POH",
+            "flow_id": "1496551831026",
+            "start_time": "2017-07-07 13:44:18.591",
+            "end_time": "2017-07-07 13:46:26.501"
+        },
+        {
+            "org_eid": "104003121",
+            "s3_key": "im/catalog/104003121.snapshot.000.gz",
+            "s3_bucket": "ghx-global-content-encrypted-dev",
+            "flow_status": "COMPLETE",
+            "flow_type": "GRS",
+            "flow_id": "snapshot",
+            "start_time": "2017-09-26 15:08:03.722",
+            "end_time": "2017-09-26 15:08:10.500"
+        },
+        {
+            "org_eid": "104000660",
+            "s3_key": "poh/inbound/104000660.1498452752392.POHX.txt",
+            "s3_bucket": "ghx-global-content-encrypted-dev",
+            "flow_status": "COMPLETE",
+            "flow_type": "POH",
+            "flow_id": "1498452752392",
+            "start_time": "2017-07-07 14:28:44.827",
+            "end_time": "2017-07-07 14:30:56.500"
+        },
+        {
+            "org_eid": "104000660",
+            "s3_key": "clincx/deltas/104000660.1501618684887.000.gz",
+            "s3_bucket": "ghx-global-content-encrypted-dev",
+            "flow_status": "ERROR",
+            "flow_type": "CLINCX",
+            "flow_id": "1501618684887",
+            "start_time": "2017-08-07 14:39:32.579",
+            "end_time": "2017-08-07 15:00:57.500"
+        },
+        {
+            "org_eid": "104000660",
+            "s3_key": "contract/inbound/104000660.new_format.CONTRACT.txt.gz",
+            "s3_bucket": "ghx-global-content-encrypted-dev",
+            "flow_status": "COMPLETE",
+            "flow_type": "CONTRACT",
+            "flow_id": "new_format",
+            "start_time": "2017-07-30 09:22:32.659",
+            "end_time": "2017-07-30 09:29:48.500"
+        },
+        {
+            "org_eid": "104000660",
+            "s3_key": "poh/inbound/104000660.1501832878945.POHX.txt",
+            "s3_bucket": "ghx-global-content-encrypted-dev",
+            "flow_status": "COMPLETE",
+            "flow_type": "POH",
+            "flow_id": "1501832878945",
+            "start_time": "2017-09-26 12:27:24.849",
+            "end_time": "2017-09-26 12:30:21.500"
+        },
+        {
+            "org_eid": "104003121",
+            "s3_key": "im/inbound/104003121.1505174233969.PCAT.txt",
+            "s3_bucket": "ghx-global-content-encrypted-dev",
+            "flow_status": "COMPLETE",
+            "flow_type": "IM",
+            "flow_id": "1505174233969",
+            "start_time": "2017-09-25 12:10:40.481",
+            "end_time": "2017-09-25 12:13:20.500"
+        },
+        {
+            "org_eid": "104000660",
+            "s3_key": "clincx/deltas/104000660.small-test.000.gz",
+            "s3_bucket": "ghx-global-content-encrypted-dev",
+            "flow_status": "COMPLETE",
+            "flow_type": "CLINCX",
+            "flow_id": "small-test",
+            "start_time": "2017-08-07 16:47:38.524",
+            "end_time": "2017-08-07 16:52:42.500"
+        },
+        {
+            "org_eid": "104065468",
+            "s3_key": "im/catalog/104065468.snapshot.000.gz",
+            "s3_bucket": "ghx-global-content-encrypted-dev",
+            "flow_status": "COMPLETE",
+            "flow_type": "CLINCX",
+            "flow_id": "snapshot",
+            "start_time": "2017-07-14 07:24:55.855",
+            "end_time": "2017-07-14 07:25:11.500"
+        },
+        {
+            "org_eid": "104065468",
+            "s3_key": "im/inbound/104065468.071417.110ONLY.txt",
+            "s3_bucket": "ghx-global-content-encrypted-dev",
+            "flow_status": "COMPLETE",
+            "flow_type": "IM",
+            "flow_id": "071417",
+            "start_time": "2017-07-14 07:22:29.715",
+            "end_time": "2017-07-14 07:24:29.500"
+        },
+        {
+            "org_eid": "104000660",
+            "s3_key": "poh/catalog/104000660.POH_PRD.000.gz",
+            "s3_bucket": "ghx-global-content-encrypted-dev",
+            "flow_status": "ERROR",
+            "flow_type": "GRS",
+            "flow_id": "POH_PRD",
+            "start_time": "2017-08-15 14:57:05.962",
+            "end_time": "2017-08-15 14:58:17.500"
+        },
+        {
+            "org_eid": "104065468",
+            "s3_key": "im/inbound/104065468.IM.txt",
+            "s3_bucket": "ghx-global-content-encrypted-dev",
+            "flow_status": "COMPLETE",
+            "flow_type": "IM",
+            "flow_id": "IM",
+            "start_time": "2017-07-10 15:38:27.392",
+            "end_time": "2017-07-10 15:40:32.500"
+        },
+        {
+            "org_eid": "104000660",
+            "s3_key": "im/inbound/104000660.LOCTEST.PCAT.txt",
+            "s3_bucket": "ghx-global-content-encrypted-dev",
+            "flow_status": "COMPLETE",
+            "flow_type": "IM",
+            "flow_id": "LOCTEST",
+            "start_time": "2017-06-16 16:19:48.482",
+            "end_time": "2017-06-16 16:20:25.500"
+        },
+        {
+            "org_eid": "104000660",
+            "s3_key": "poh/inbound/104000660.1497267539052.POHX.txt",
+            "s3_bucket": "ghx-global-content-encrypted-dev",
+            "flow_status": "COMPLETE",
+            "flow_type": "POH",
+            "flow_id": "1497267539052",
+            "start_time": "2017-07-07 14:50:42.991",
+            "end_time": "2017-07-07 14:52:55.500"
+        },
+        {
+            "org_eid": "101010411",
+            "s3_key": "im/catalog/101010411.snapshot.000.gz",
+            "s3_bucket": "ghx-global-content-encrypted-dev",
+            "flow_status": "COMPLETE",
+            "flow_type": "CLINCX",
+            "flow_id": "snapshot",
+            "start_time": "2017-08-29 15:55:08.443",
+            "end_time": "2017-08-29 15:55:39.500"
+        },
+        {
+            "org_eid": "104000660",
+            "s3_key": "im/catalog/104000660.snapshot.000.gz",
+            "s3_bucket": "ghx-global-content-encrypted-dev",
+            "flow_status": "COMPLETE",
+            "flow_type": "CLINCX",
+            "flow_id": "snapshot",
+            "start_time": "2017-09-26 15:21:08.367",
+            "end_time": "2017-09-26 15:25:40.500"
+        },
+        {
+            "org_eid": "104000660",
+            "s3_key": "poh/inbound/104000660.1496551831025.POHX.txt",
+            "s3_bucket": "ghx-global-content-encrypted-dev",
+            "flow_status": "COMPLETE",
+            "flow_type": "POH",
+            "flow_id": "1496551831025",
+            "start_time": "2017-07-07 13:44:18.591",
+            "end_time": "2017-07-07 13:46:26.500"
+        },
+        {
+            "org_eid": "104000660",
+            "s3_key": "contract/inbound/104000660.104000622.CONTRACT.LongMfrPN.txt",
+            "s3_bucket": "ghx-global-content-encrypted-dev",
+            "flow_status": "COMPLETE",
+            "flow_type": "CONTRACT",
+            "flow_id": "001040006239",
+            "start_time": "2017-06-14 13:21:27.235",
+            "end_time": "2017-06-14 13:21:45.500"
+        },
+        {
+            "org_eid": "999999999",
+            "s3_key": "asp/inbound/999999999.1497830400040.ASP.txt.gz",
+            "s3_bucket": "ghx-global-content-encrypted-dev",
+            "flow_status": "ERROR",
+            "flow_type": "ASP",
+            "flow_id": "1497830400040",
+            "start_time": "2017-06-23 08:30:22.476",
+            "end_time": "2017-06-23 08:30:24.500"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+@import 'variables';
+body{
+    font-family: $font-stack;
+}
+.green{
+    color: $color-green;
+}
+.red{
+    color: $color-red;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.btn-salmon {
+    background-color: #f47555;
+    border-color: #dd7450;
+    color: #fff;
+}
+.btn-violet {
+    background-color: #c477c4;
+    border-color: #be68be;
+    color: #fff;
+}
+.btn-resolve, .resolved {
+    background-color: #428bca; 
+}
+.margin-right15{
+    margin-right:15px;
+}
+.table{
+    border: 1px solid #ccc;
+}
+.dnd-drag-start {
+    -moz-transform:scale(0.8);
+    -webkit-transform:scale(0.8);
+    transform:scale(0.8);
+    opacity:0.7;
+    border: 2px dashed #000;
+}
+
+.dnd-drag-enter {
+    opacity:0.7;
+    border: 2px dashed #000;
+}
+
+.dnd-drag-over {
+    border: 2px dashed #000;
+}
+
+.dnd-sortable-drag {
+  -moz-transform:scale(0.9);
+  -webkit-transform:scale(0.9);
+  transform:scale(0.9);
+  opacity:0.7;
+  border: 1px dashed #000;
+}
+.ui-multiselect-panel{
+    background: #fff;
+}
+.ui-datatable-thead th{
+    background: #d3d5d8;
+}
