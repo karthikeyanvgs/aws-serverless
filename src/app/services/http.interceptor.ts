@@ -54,9 +54,8 @@ export class HttpInterceptor extends Http {
     }
     updateUrl(url: string) {
         if(url.indexOf('http') < 0){
-            url = SecurityService.configuration.serviceBaseUrl + '/' + url;
-        }        
-        console.log('url', url);
+            url = SecurityService.configuration.serviceBaseUrl + '/clincx/v1/' + url;
+        }
         return url;
     }
     getRequestOptionArgs(url: string, options?: RequestOptionsArgs): RequestOptionsArgs {
