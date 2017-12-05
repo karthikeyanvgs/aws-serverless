@@ -23,4 +23,4 @@ const binaryMimeTypes = [
 const server = awsServerlessExpress.createServer(app, null, binaryMimeTypes)
 
 
-module.exports.universal = (event, context) => awsServerlessExpress.proxy(server, event, context);
+module.exports.handler = (event, context) => awsServerlessExpress.proxy(server, event, context);
