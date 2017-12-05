@@ -1,0 +1,30 @@
+version: 0.2
+
+#env:
+  #variables:
+     # key: "value"
+     # key: "value"
+  #parameter-store:
+     # key: "value"
+     # key: "value"
+
+phases:
+  install:
+    commands:
+      npm run config -- --account-id 119976276594 --bucket-name aws-serverless-angular --region us-west-2
+  #pre_build:
+    #commands:
+      # - command
+      # - command
+  build:
+    commands:
+      npm run setup
+      # - command
+  #post_build:
+    #commands:
+    #  sls deploy --stage dev
+artifacts:
+  files:
+    - '**/*'
+  #discard-paths: yes
+  #base-directory: location
