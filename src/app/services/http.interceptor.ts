@@ -17,7 +17,7 @@ import 'rxjs/add/observable/throw';
 import 'rxjs/add/observable/empty';
 
 import { environment } from '../../environments/environment';
-
+import { SecurityService } from './security.service';
 declare var jQuery: any;
 
 @Injectable()
@@ -54,7 +54,7 @@ export class HttpInterceptor extends Http {
     }
     updateUrl(url: string) {
         if(url.indexOf('http') < 0){
-            url = environment.serviceBaseUrl + url;
+            url = SecurityService.configuration.serviceBaseUrl + '/' + url;
         }        
         console.log('url', url);
         return url;
