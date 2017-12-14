@@ -17,7 +17,7 @@ Resources:
   ApiGatewayApi:
     Type: AWS::Serverless::Api
     Properties:
-      DefinitionUri: ./simple-proxy-api.yaml
+      DefinitionUri: ./swagger-apigateway.yaml
       StageName: !Ref StageName
       Variables:
         ServerlessExpressLambdaFunctionName: !Ref AwsServerlessExpressFunction
