@@ -10,7 +10,7 @@ info:
   produces:
     - "application/json"
 paths:
-  /test:
+  /:
     get:
       responses:
         200:
@@ -19,7 +19,7 @@ paths:
         type: none
       x-amazon-apigateway-integration:
         type: aws
-        uri: arn:aws:apigateway:${stageVariables.Region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${stageVariables.Region}:${stageVariables.AccountId}:function:${stageVariables.ServerlessExpressLambdaFunctionName}/invocations
+        uri: arn:aws:apigateway:${stageVariables.Region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${stageVariables.Region}:119976276594:function:${stageVariables.ServerlessExpressLambdaFunctionName}/invocations
         credentials: null
         httpMethod: POST
         responses:
