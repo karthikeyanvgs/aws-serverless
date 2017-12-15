@@ -51,7 +51,6 @@ Resources:
                         - ':function:'
                         - !Ref ServerlessExpressLambdaFunctionName
                     - /invocations
-                credentials: null
                 httpMethod: POST
                 responses:
                   default:
