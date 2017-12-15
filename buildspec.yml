@@ -11,7 +11,7 @@ version: 0.2
 phases:
   install:
     commands:
-      npm run config -- --account-id 119976276594 --bucket-name aws-ghx-serverless-angular --region us-west-2
+      npm run config -- --account-id 119976276594 --bucket-name aws-serverless-angular --region us-west-2
   #pre_build:
     #commands:
       # - command
