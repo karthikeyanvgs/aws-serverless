@@ -20,7 +20,7 @@ Resources:
       DefinitionUri: ./swagger-apigateway.yaml
       StageName: !Ref StageName
       Variables:
-        ServerlessExpressLambdaFunctionName: !Ref AwsServerlessExpressFunction
+        ServerlessExpressLambdaFunctionName: !Ref YOUR_SERVERLESS_EXPRESS_LAMBDA_FUNCTION_NAME
         AccountId: !Ref AWS::AccountId
         Region: !Ref Region
         
@@ -51,7 +51,7 @@ Resources:
     Type: AWS::Lambda::Permission
     Properties:
       Action: lambda:InvokeFunction
-      FunctionName: !GetAtt AwsServerlessExpressFunction.Arn
+      FunctionName: !GetAtt YOUR_SERVERLESS_EXPRESS_LAMBDA_FUNCTION_NAME.Arn
       Principal: apigateway.amazonaws.com
       SourceArn: !Join
         - ''
@@ -63,7 +63,7 @@ Resources:
           - !Ref ApiGatewayApi
           - "/*/*"
 
-  AwsServerlessExpressFunction:
+  YOUR_SERVERLESS_EXPRESS_LAMBDA_FUNCTION_NAME:
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: ./
@@ -100,7 +100,7 @@ Outputs:
         - ".console.aws.amazon.com/lambda/home?region="
         - !Ref Region
         - "#/functions/"
-        - !Ref AwsServerlessExpressFunction
+        - !Ref YOUR_SERVERLESS_EXPRESS_LAMBDA_FUNCTION_NAME
 
   ApiGatewayApiConsoleUrl:
     Description: Console URL for the API Gateway API's Stage.
