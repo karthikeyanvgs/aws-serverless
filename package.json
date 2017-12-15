@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "config": {
-    "s3BucketName": "aws-ghx-serverless-angular",
+    "s3BucketName": "aws-serverless-angular",
     "region": "us-west-2",
     "cloudFormationStackName": "AwsServerlessExpressStack",
     "functionName": "AwsServerlessExpressFunction",
