@@ -50,7 +50,7 @@ if (availableRegions.indexOf(region) === -1) {
     return
 }
 
-modifyFiles(['./simple-proxy-api.yaml', './package.json', './cloudformation.yaml'], [{
+modifyFiles(['./simple-proxy-api.yaml', './swagger-apigateway.yaml', './package.json', './cloudformation.yaml'], [{
     regexp: /YOUR_ACCOUNT_ID/g,
     replacement: accountId
 }, {
