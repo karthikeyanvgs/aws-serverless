@@ -11,7 +11,7 @@ version: 0.2
 phases:
   install:
     commands:
-      npm run config -- --account-id 050190852521 --bucket-name aws-serverless-angular --region us-west-2 --function-name AwsServerlessExpressFunction
+      npm run config -- --account-id 050190852521 --bucket-name aws-ghx-serverless-angular --region us-west-2 --function-name AwsServerlessExpressFunction
   #pre_build:
     #commands:
       # - command
