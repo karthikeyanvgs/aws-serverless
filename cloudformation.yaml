@@ -21,9 +21,9 @@ Resources:
       StageName: !Ref StageName
       Variables:
         ServerlessExpressLambdaFunctionName: !Ref AwsServerlessExpressFunction
-		AccountId: !Ref AWS::AccountId
-		Region: !Ref Region
-
+        AccountId: !Ref AWS::AccountId
+        Region: !Ref Region
+        
   LambdaExecutionRole:
     Type: AWS::IAM::Role
     Properties:
