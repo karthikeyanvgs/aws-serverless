@@ -8,7 +8,7 @@
     "region": "us-west-2",
     "cloudFormationStackName": "AwsServerlessExpressStack",
     "functionName": "AwsServerlessExpressFunction",
-    "accountId": "119976276594"
+    "accountId": "050190852521"
   },
   "scripts": {
     "start": "node app.local.js",
